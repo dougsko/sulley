@@ -1,0 +1,15 @@
+restart_sleep_time -> 300
+crash_threshold -> 3
+web_port -> 26000
+protmon_results -> {1165: 'GET / HTTP/1.1\r\nHost:\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\nlocalhost\r\nUser-Agent: Mozilla/5.0 (Windows; U)\r\nAccept-Language: en-us,en;q=0.5\r\nKeep-Alive: 300\r\nConnection: keep-alive\r\nReferer: http://dvlabs.tippingpoint.com\r\n\r\n'}
+skip -> 1166
+proto -> 1
+restart_interval -> 0
+total_mutant_index -> 1166
+session_filename -> audits/monkey.session
+total_num_mutations -> 10994
+timeout -> 5.0
+pause_flag -> False
+netmon_results -> {}
+procmon_results -> {}
+sleep_time -> 0.1
